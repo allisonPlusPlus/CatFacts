@@ -16,6 +16,8 @@ body {
 
 .nav {
       background-color: #434343;
+      color: #F8F8F8;
+      font-size: 20px;
 }
 
 .nav ul, li {
@@ -26,11 +28,6 @@ body {
 .nav li {
   margin-left: 10px;
   margin-right: 10px;
-}
-
-.nav a {
-  color: #F8F8F8;
-  font-size: 20px;
 }
 
 .nav a:hover {
