@@ -23,6 +23,11 @@ body {
     display: inline;
 }
 
+.nav li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .nav a {
   color: #F8F8F8;
   font-size: 20px;
