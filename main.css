@@ -34,6 +34,11 @@ body {
   cursor: pointer;
 }
 
+#fact {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .nav a {
   color: white;
   text-decoration: none;
