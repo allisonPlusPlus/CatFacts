@@ -5,6 +5,9 @@ margin: 0;
 font-family: 'Roboto', sans-serif;
 }
 
+html {
+min-height: 100%;
+}
 
 body {
     background: url('catcomputer.jpg') no-repeat center center fixed;
