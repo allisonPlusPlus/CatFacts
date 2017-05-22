@@ -30,6 +30,10 @@ body {
   margin-right: 10px;
 }
 
+#new {
+  cursor: pointer;
+}
+
 .nav a {
   color: white;
   text-decoration: none;
