@@ -30,17 +30,19 @@ body {
   margin-right: 10px;
 }
 
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
 .nav a:hover {
   text-decoration: none;
   color: #A9A9A9
 }
 
-.nav a:active {
-  color: white;
-}
-
 .nav a:visited {
   color: white;
+  text-decoration: none;
 }
 
 .fact {
