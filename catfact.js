@@ -4,6 +4,9 @@ $(document).ready(function() {
           var factObject = JSON.parse(result);
           var factString = factObject.facts.join();
           $("#fact").html(factString);
+          $("#tweet").attr("href", "https://twitter.com/home/?status=" + factString);
       }});
+
   });
+
 });
