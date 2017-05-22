@@ -6,6 +6,7 @@ var getFact = function() {
       success: function( response ) {
         var factObject = JSON.parse(response);
         var factString = factObject.facts.join();
+        $("#fact").hide().fadeIn(1000);
         $("#fact").html(factString);
         $("#tweet").attr("href", "https://twitter.com/home/?status=" +factString);
       }
