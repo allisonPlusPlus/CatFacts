@@ -1,12 +1,12 @@
 * {
-border: 0;
-padding: 0;
-margin: 0;
-font-family: 'Roboto', sans-serif;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 html {
-min-height: 100%;
+    min-height: 100%;
 }
 
 body {
@@ -17,26 +17,33 @@ body {
     -o-background-size: cover;
 }
 
-@media only screen and (min-width : 480px) {
-  .nav{font-size: 50px;}
+@media only screen and (min-width: 480px) {
+    .nav {
+        font-size: 50px;
+    }
 }
 
-@media only screen and (min-width : 768px) {
- .nav{font-size: 50px;}
+@media only screen and (min-width: 768px) {
+    .nav {
+        font-size: 50px;
+    }
 }
 
-@media only screen and (min-width : 992px) {
- .nav{font-size: 20px;}
+@media only screen and (min-width: 992px) {
+    .nav {
+        font-size: 20px;
+    }
 }
 
-@media only screen and (min-width: 1200px ) {
- .nav{font-size: 20px;}
+@media only screen and (min-width: 1200px) {
+    .nav {
+        font-size: 20px;
+    }
 }
 
 .nav {
-      background-color: #434343;
-      color: #F8F8F8;
-
+    background-color: #434343;
+    color: #F8F8F8;
 }
 
 .nav ul, li {
@@ -45,40 +52,40 @@ body {
 }
 
 .nav li {
-  margin-left: 10px;
-  margin-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #new {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 #fact {
-  padding-left: 1em;
-  padding-right: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .nav a {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 .nav a:hover {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 
 .nav a:visited {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 .fact {
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    padding-top:25.5%;
-    color:white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 25.5%;
+    color: white;
     font-size: 45px;
 }
